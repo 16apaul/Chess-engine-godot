@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="board_preset" load_steps=5 format=3 uid="uid://pi6vg1mlwioc"]
+
+[ext_resource type="Resource" uid="uid://eewi8wf0mvoe" path="res://Board/Pieces/B_bishop.tres" id="1_kay3n"]
+[ext_resource type="Resource" uid="uid://bmkf5juir5war" path="res://Board/Pieces/B_king.tres" id="1_lyd0i"]
+[ext_resource type="Resource" uid="uid://ctkplmk0iomoj" path="res://Board/Pieces/B_knight.tres" id="1_tmcej"]
+[ext_resource type="Script" path="res://Board/board_preset.gd" id="2_uo0c7"]
+
+[resource]
+script = ExtResource("2_uo0c7")
+board_preset = Array[Resource("res://Board/board_piece.gd")]([ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_lyd0i"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), ExtResource("1_tmcej"), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, ExtResource("1_kay3n"), null, null, null, null, null, null, null])

@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfurxruiwgkg1"]
+
+[ext_resource type="PackedScene" uid="uid://bsl1kbm7uyn5" path="res://Board/Board_UI/board.tscn" id="1_nslhk"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 475.0
+offset_bottom = 280.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HSlider" type="HSlider" parent="."]
+layout_mode = 0
+offset_left = 1586.0
+offset_top = 81.0
+offset_right = 1907.0
+offset_bottom = 184.0
+min_value = 3.0
+max_value = 17.0
+value = 8.0
+
+[node name="Board" parent="." instance=ExtResource("1_nslhk")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(974, 530)
+zoom = Vector2(0.58, 0.58)
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 1562.0
+offset_top = 69.0
+offset_right = 1936.0
+offset_bottom = 104.0
+theme_override_font_sizes/normal_font_size = 24
+text = "Change size of board with slider"
+fit_content = true
+
+[connection signal="value_changed" from="HSlider" to="Board" method="_on_h_slider_value_changed"]

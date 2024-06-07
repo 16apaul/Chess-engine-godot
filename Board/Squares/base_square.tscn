@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctm676yt5vgwr"]
+
+[ext_resource type="Script" path="res://Board/Squares/base_square.gd" id="1_rush8"]
+
+[node name="Button" type="Button"]
+custom_minimum_size = Vector2(96, 96)
+offset_right = 96.0
+offset_bottom = 96.0
+script = ExtResource("1_rush8")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(96, 96)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+custom_minimum_size = Vector2(96, 96)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="CenterContainer"]
+position = Vector2(48, 48)
+scale = Vector2(0.305, 0.305)
+metadata/Has_Moved = false
+metadata/moved_twice = false

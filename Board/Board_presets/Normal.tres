@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="board_preset" load_steps=14 format=3 uid="uid://kbmma76bqsna"]
+
+[ext_resource type="Resource" uid="uid://buc4gc7s6yoxs" path="res://Board/Pieces/B_rook.tres" id="1_b0ejl"]
+[ext_resource type="Resource" uid="uid://ctkplmk0iomoj" path="res://Board/Pieces/B_knight.tres" id="2_kx7b4"]
+[ext_resource type="Resource" uid="uid://eewi8wf0mvoe" path="res://Board/Pieces/B_bishop.tres" id="3_hjclb"]
+[ext_resource type="Resource" uid="uid://bd1fx8ghfpdmj" path="res://Board/Pieces/B_queen.tres" id="4_3i3h5"]
+[ext_resource type="Resource" uid="uid://bmkf5juir5war" path="res://Board/Pieces/B_king.tres" id="5_tpo3o"]
+[ext_resource type="Resource" uid="uid://uu5gnw780oi4" path="res://Board/Pieces/B_pawn.tres" id="6_6tt1x"]
+[ext_resource type="Resource" uid="uid://by2aq7dx1ot88" path="res://Board/Pieces/W_bishop.tres" id="6_phup5"]
+[ext_resource type="Script" path="res://Board/board_preset.gd" id="7_urdki"]
+[ext_resource type="Resource" uid="uid://rcg7h7yenc2y" path="res://Board/Pieces/W_pawn.tres" id="7_ux8hh"]
+[ext_resource type="Resource" uid="uid://ofr2ax6rw2j1" path="res://Board/Pieces/W_rook.tres" id="8_c7tu8"]
+[ext_resource type="Resource" uid="uid://dn02c8qox0o25" path="res://Board/Pieces/W_knight.tres" id="9_f4ldx"]
+[ext_resource type="Resource" uid="uid://ysrr1s4vt7hk" path="res://Board/Pieces/W_queen.tres" id="11_qdg2q"]
+[ext_resource type="Resource" uid="uid://cwji3yf04powb" path="res://Board/Pieces/W_king.tres" id="12_86q50"]
+
+[resource]
+script = ExtResource("7_urdki")
+board_preset = Array[Resource("res://Board/board_piece.gd")]([ExtResource("1_b0ejl"), ExtResource("2_kx7b4"), ExtResource("3_hjclb"), ExtResource("4_3i3h5"), ExtResource("5_tpo3o"), ExtResource("3_hjclb"), ExtResource("2_kx7b4"), ExtResource("1_b0ejl"), ExtResource("6_6tt1x"), ExtResource("6_6tt1x"), ExtResource("6_6tt1x"), ExtResource("6_6tt1x"), ExtResource("6_6tt1x"), ExtResource("6_6tt1x"), ExtResource("6_6tt1x"), ExtResource("6_6tt1x"), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, ExtResource("7_ux8hh"), ExtResource("7_ux8hh"), ExtResource("7_ux8hh"), ExtResource("7_ux8hh"), ExtResource("7_ux8hh"), ExtResource("7_ux8hh"), ExtResource("7_ux8hh"), ExtResource("7_ux8hh"), ExtResource("8_c7tu8"), ExtResource("9_f4ldx"), ExtResource("6_phup5"), ExtResource("11_qdg2q"), ExtResource("12_86q50"), ExtResource("6_phup5"), ExtResource("9_f4ldx"), ExtResource("8_c7tu8")])

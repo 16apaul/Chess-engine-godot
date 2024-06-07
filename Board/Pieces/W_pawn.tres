@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="board_piece" load_steps=3 format=3 uid="uid://rcg7h7yenc2y"]
+
+[ext_resource type="Script" path="res://Board/board_piece.gd" id="1_jemrf"]
+[ext_resource type="Texture2D" uid="uid://dam56hl42y156" path="res://Piece_art/W_Pawn.png" id="2_6lad2"]
+
+[resource]
+script = ExtResource("1_jemrf")
+name = "W_pawn"
+texture = ExtResource("2_6lad2")

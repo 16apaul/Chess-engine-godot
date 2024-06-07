@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="board_piece" load_steps=3 format=3 uid="uid://ctkplmk0iomoj"]
+
+[ext_resource type="Script" path="res://Board/board_piece.gd" id="1_acuhb"]
+[ext_resource type="Texture2D" uid="uid://wmmd3xpm6rxu" path="res://Piece_art/B_Knight.png" id="2_pl8hr"]
+
+[resource]
+script = ExtResource("1_acuhb")
+name = "B_knight"
+texture = ExtResource("2_pl8hr")
